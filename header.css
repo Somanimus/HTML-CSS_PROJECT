@@ -1,0 +1,110 @@
+.site-nav{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    height: 77px;
+    align-items: center;
+    margin-bottom: calc(55px - 23px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.header-link{
+    font-family: 'Mullish', sans-serif;
+    font-weight: 400;
+    color: #818181;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 46px;
+}
+.header-title{
+font-family: 'Josefin Sans', sans-serif;
+
+font-weight: 400;
+font-size: 38px;
+line-height: 38px;
+letter-spacing: 1.1px;
+text-transform: uppercase;
+}
+.marathone-link{
+    margin-right: 48px;
+}
+.home-link{
+    font-weight: 800;
+    color: #3D8B74;
+}
+.anons-image{
+    width: 1347px;
+}
+.header-card{
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+.card-content-box{
+    position: absolute;
+    width: 723px;
+    height: 365px;
+    left: calc(50% - 723px/2 + 1px);
+    top: calc(50% - 365px/2 + 1px);
+
+background: rgba(255, 255, 255, 0.75);;
+}
+.card-content-box h2{
+position: absolute;
+width: 406px;
+height: 56px;
+left: calc(50% - 406px/2 + 2.5px);
+top: calc(50% - 56px/2 - 94.5px);
+
+
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 1.1px;
+text-transform: uppercase;
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #232323;
+}
+.card-content-box p{
+position: absolute;
+width: 549px;
+height: 72px;
+left: calc(50% - 549px/2 + 1px);
+top: calc(50% - 72px/2 - 4.5px);
+
+font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 1.5px;
+
+color: #232323;
+
+
+}
+.card-button{
+position: absolute;
+width: 292px;
+height: 55px;
+left: calc(50% - 292px/2 + 1.5px);
+top: calc(50% - 55px/2 + 99px);
+
+background: #3D8B74;
+font-family: 'Josefin Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+letter-spacing: 1.1px;
+text-transform: uppercase;
+text-align: center;
+color: #FFFFFF;
+
+
+}
