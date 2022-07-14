@@ -1,7 +1,12 @@
+header{
+    margin-bottom: 57px;
+}
+
 .site-nav{
+
     background-color: #FFFFFF;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     height: 77px;
     align-items: center;
     margin-bottom: calc(55px - 23px);
@@ -18,10 +23,11 @@
 }
 .header-title{
 font-family: 'Josefin Sans', sans-serif;
-
+color: #232323;
 font-weight: 400;
 font-size: 38px;
 line-height: 38px;
+margin-right: 350px;
 letter-spacing: 1.1px;
 text-transform: uppercase;
 }
@@ -39,15 +45,18 @@ text-transform: uppercase;
     display: flex;
     justify-content: center;
     background-color: #FFFFFF;
+    height: 595px;
 }
 .card-content-box{
     position: absolute;
     width: 723px;
     height: 365px;
-    left: calc(50% - 723px/2 + 1px);
-    top: calc(50% - 365px/2 + 1px);
+    
+    /* left: calc(50% - 723px/2 + 1px);
+    top: calc(45% - 365px/2); */
 
 background: rgba(255, 255, 255, 0.75);;
+top: 25%;
 }
 .card-content-box h2{
 position: absolute;
@@ -57,7 +66,7 @@ left: calc(50% - 406px/2 + 2.5px);
 top: calc(50% - 56px/2 - 94.5px);
 
 
-font-family: 'Josefin Sans';
+font-family: 'Josefin Sans', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 28px;
@@ -107,4 +116,7 @@ text-align: center;
 color: #FFFFFF;
 
 
+}
+.content-sorter{
+    margin-bottom: 37px;
 }
