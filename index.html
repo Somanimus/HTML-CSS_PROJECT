@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Mulish:wght@400;600;800&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="./header.css">
     <link rel="stylesheet" href="./main.css">
@@ -50,15 +50,15 @@
         <section class="content-section">
         <div class="content-sorter">
 
-        <button class="sorter-button">All(106)</button>
+        <button class="sorter-button" id="all-sorter">All (106)</button>
         
-        <button class="sorter-button btn-selected">Receipts(32)</button>
+        <button class="sorter-button btn-selected" id="receipts-sorter">Receipts (32)</button>
 
-        <button class="sorter-button">Travelings(4)</button>
+        <button class="sorter-button" id="travelings-sorter">Travelings (4)</button>
 
-        <button class="sorter-button">Health(14)</button>
+        <button class="sorter-button" id="health-sorter">Health (14)</button>
 
-        <button class="sorter-button">Yoga(5)</button>
+        <button class="sorter-button" id="youga-sorter">Yoga (5)</button>
 
         </div>
         <div class="content-section-box">
@@ -118,44 +118,51 @@
         </section> 
         <section class="extra-section">
         <nav class="main-socials-nav">
-            <a href="">facebookimg</a>
+            <a href=""><img src="./media/facebookfacebook.png" class="icon facebook-icon" alt=""></a>
 
-            <a href="">instagramimg</a>
+            <a href=""><img src="./media/instagrampic.png" class="icon instagram-icon" alt=""></a>
 
-            <a href="">youtubeimg</a>
+            <a href=""><img src="./media/youtube.png" class="icon youtube-icon" alt=""></a>
 
-            <a href="">twitterimg</a>
+            <a href=""><img src="./media/twitter.png" class="icon twitter-icon" alt=""></a>
 
-            <a href="">pinterestimg</a>
+            <a href=""><img src="./media/pinterest.png" class="icon pinterest-icon" alt=""></a>
         </nav> 
+        <div class="tag-cloud-container">
         <div class="tag-cloud">
-            <button class="tag-button">#healthyfood</button>
-            <button class="tag-button">#banana</button>
-            <button class="tag-button">#coctails</button>
-            <button class="tag-button">#vegan</button>
-            <button class="tag-button">#youga</button>
-            <button class="tag-button">#makeuptutorial</button>
+            <h3>Tag cloud</h3>
+            <button class="tag-button"><p>#healthyfood</p></button>
+            <button class="tag-button"><p>#banana</p></button>
+            <button class="tag-button"><p>#coctails</p></button>
+            <button class="tag-button"><p>#vegan</p></button>
+            <button class="tag-button"><p>#yoga</p></button>
+            <button class="tag-button"><p>#makeuptutorial</p></button>
+
+        </div>
+
+            <a href="" class="item-link tag-link">See more</a>
+
         </div>
         <div class="about-author">
-            <h3>About author</h3>
-            <img src="" alt="">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit quas dolorem asperiores dolores suscipit ad aliquid omnis optio deleniti placeat, rerum et, perspiciatis eveniet, sit quis natus. Fugiat expedita accusantium rerum perferendis.</p>
+            <h3 class="about-headline">About author</h3>
+            <img src="./media/Rectangle 36author.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
         </div>
         </section>
         <nav class="page-nav">
-            <a href=""> previous </a>
+            <a href=""><p> <img src="./media/Vectorleft-arrow.png" class="left-arrow" alt=""> previous </p></a>
 
-            <a href=""> 1 </a>
+            <a href=""><p> 1 </p></a>
 
-            <a href=""> 2 </a>
+            <a href="" class="page-selected"><p> 2 </p></a>
 
-            <a href=""> 3 </a>
+            <a href=""><p> 3 </p></a>
 
-            <a href=""> ... </a>
+            <a href=""><p> ... </p></a>
 
-            <a href=""> 27 </a>
+            <a href=""><p>27</p></a>
 
-            <a href=""> next </a>
+            <a href=""><p> next <img src="./media/Vectorright-arrow.png" class="right-arrow" alt=""> </p></a>
         </nav>
     </main>    
 
@@ -165,30 +172,34 @@
     <section class="footer-form-section">
         <div class="form-text-box">
         <h3>SUBSCRIBE AND DON'T MISS NEW ARTICLES</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae blanditiis deleniti molestiae deserunt perspiciatis quaerat. Sint nisi obcaecati minima illum magnam, at quia alias.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
         <form class="subscription-form">
-            <input type="text">
-            <input type="text">
-            <button class="submit"> submit</button>
+            <input type="text" title="Name" placeholder="Name" class="name-input">
+            <input type="text" title="Email" placeholder="Email" class="email-input">
+            <button class="submit">send</button>
         </form>
         </div>
     </section>
     <section class="footer-socials-section">
+        <div class="socials-content-box">
         <div class="author-info">
-            <img src="" alt="">
+            <img src="./media/Rectangle 36footer-pic.png" class="footer-pic" alt="">
             <h3>Natalie Laursen</h3>
         </div>
         <div class="footer-socials">
-            <a href="">facebook</a>
-            <a href="">instagram</a>
-            <a href="">youtube</a>
-            <a href="">twitter</a>
-            <a href="">pinterest</a>
+            <a href=""><img class="footer-icon" src="./media/facebookfacebook.png" alt=""></a>
+            <a href=""><img class="footer-icon" src="./media/instagrampic.png" alt=""></a>
+            <a href=""><img class="footer-icon" src="./media/youtube.png" alt=""></a>
+            <a href=""><img class="footer-icon" src="./media/twitter.png" alt=""></a>
+            <a href=""><img class="footer-icon" src="./media/pinterest.png" alt=""></a>
         </div>
-    </section>
+ 
+        </div>
     <div class="copyright-div">
      <p>A.Palino 2020. All rights reserved</p>
-    </div>
+     </div>
+    </section>
+   
     </footer>
 
 

@@ -1,0 +1,152 @@
+.footer-form-section{
+    height: 329px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E2EEEA;
+}
+.form-text-box h3{
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 24px;
+letter-spacing: 1.1px;
+margin: auto;
+text-align: center;
+text-transform: uppercase;
+margin-bottom: 16px;
+
+color: #232323;
+}
+.form-text-box p{
+    width: 691px;
+    text-align: center;
+    margin-bottom: 41px;
+    margin: auto;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin-bottom: 41px;
+
+    color: #232323;
+}
+
+.subscription-form{
+    width: 791px;
+    display: flex;
+    justify-content: space-between;
+}
+.subscription-form input{
+    border: none;
+    border-radius: 0%;
+}
+.subscription-form button{
+    width: 133px;
+    border: none;
+    border-radius: 0%;
+background-color: #3D8B74;
+color: #FFFFFF;
+font-family: 'Josefin Sans', sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+
+/* identical to box height */
+display: flex;
+align-items: center;
+letter-spacing: 1.1px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.subscription-form input:focus{
+    outline: none;
+box-shadow: none;
+border-color:  #3D8B74; ;
+}
+.name-input{
+width: 245px;
+height: 55px;
+}
+.email-input{
+    width:368px;
+    height: 55px;
+}
+.author-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.footer-pic{
+
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+.footer-socials-section{
+    background-color: #232323;
+    height: 385px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 46px;
+    
+}
+.footer-socials{
+    display: flex;
+    justify-content: center;
+}
+.footer-socials-section h3{
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 38px;
+letter-spacing: 1.1px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.footer-icon{
+    filter: brightness(400%);
+    margin-right: 32px;
+}
+.copyright-div{
+    height: 108px;
+    width: 100%;
+    background-color: #323232;
+    margin-top: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+/* identical to box height */
+text-align: center;
+letter-spacing: 1.5px;
+
+
+}
+.copyright-div p{
+    padding: 45px;
+}
+.socials-content-box{
+    margin-top: 100px;
+
+}
