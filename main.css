@@ -260,3 +260,79 @@ letter-spacing: 1.5px;
     padding-top: 3px;
     font-weight: 800;
 }
+
+@media  screen and (min-width : 200px) and (max-width: 1250px) {
+ main{
+    flex-direction: column;
+ }
+ 
+ .content-sorter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .content-sorter button{
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+ @media  screen and (max-width: 700px) {
+    .content-sorter{
+        flex-wrap: wrap;
+
+    }
+    .content-sorter button{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+ }
+ .content-section{
+    margin: auto;
+ }
+ .content-section{
+    align-items: center;
+    width: 100%;
+ }
+.item-img{
+    margin-bottom: 10px;
+} 
+ .content-item{
+    flex-direction: column;
+    margin: 0%;
+    height: 450px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+ }
+ .item-text-box{
+    width: 100%;
+    align-items: center;
+ }
+ .item-headline{
+    width: 80vw;
+    text-align: center;
+    margin-top: 10px;
+ }
+ .item-text{
+    width: 80%;
+ }
+ .extra-section{
+    margin: auto;
+ }
+ .tag-cloud h3{
+    text-align: center;
+ } 
+ .about-headline{
+    text-align: center;
+ }
+ .next-page-btn{
+    margin-right: 0px;
+ }
+
+}
+@media screen and (min-width: 800px) and (max-width: 1250px)  {
+  .item-text{
+    width: 50%;
+  }  
+}
