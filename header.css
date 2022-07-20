@@ -64,8 +64,8 @@ top: 25%;
 position: absolute;
 width: 406px;
 height: 56px;
-left: calc(50% - 406px/2 + 2.5px);
-top: calc(50% - 56px/2 - 94.5px);
+left: calc(50% - 406px/2 + 2px);
+top: calc(50% - 56px/2 - 98.5px);
 
 
 font-family: 'Josefin Sans', sans-serif;
@@ -85,7 +85,7 @@ position: absolute;
 width: 549px;
 height: 72px;
 left: calc(50% - 549px/2 + 1px);
-top: calc(50% - 72px/2 - 4.5px);
+top: calc(50% - 72px/2 - 9.5px);
 
 font-family: 'Mulish', sans-serif;
 font-style: normal;
@@ -104,7 +104,7 @@ position: absolute;
 width: 292px;
 height: 55px;
 left: calc(50% - 292px/2 + 1.5px);
-top: calc(50% - 55px/2 + 99px);
+top: calc(50% - 55px/2 + 93px);
 
 background: #3D8B74;
 font-family: 'Josefin Sans', sans-serif;
@@ -118,6 +118,9 @@ text-align: center;
 color: #FFFFFF;
 
 
+}
+.card-button:hover{
+    background-color:#40A385 ;
 }
 .content-sorter{
     margin-bottom: 37px;

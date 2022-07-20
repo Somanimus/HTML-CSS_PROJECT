@@ -18,7 +18,7 @@ main{
 }
 .content-section{
     margin-left: 137px;
-    width: 893px;
+    width: 62%;
 }
 .item-text-box{
     width: 520px;
@@ -51,6 +51,7 @@ color: #232323;
     font-weight: 400;
     font-size: 16px;
     line-height: 34px;
+    cursor: pointer;
 
     letter-spacing: 1.5px;
 
@@ -82,14 +83,30 @@ color: #232323;
 
     color: #232323;
 }
-.item-img{
+.item-img-container{
 height: 221px;
 width: 224px;
 left: 0px;
 top: 0px;
 border-radius: 0px;
 margin-right: 48px;
+position: relative
 
+}
+.item-img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+.item-img:hover{
+    opacity: 20%;
+}
+.img-info-container{
+    position: absolute;
+    top: 28px;
+    left: 32px;
+    z-index: -1;
 }
 .item-link{
 font-family: 'Mulish', sans-serif;
@@ -115,7 +132,7 @@ margin-bottom: 22px;
     filter: hue-rotate(150deg)  saturate(100%);
 }
 .extra-section{
-    width: 270px;
+    width: 280px;
 }
 .main-socials-nav{
 
@@ -139,13 +156,28 @@ margin-bottom: 30px;
     width: fit-content;
     background-color: #3D8B74;
     color: #FFFFFF;
-    font-size: 16px;
+
+
+font-family: 'Mulish', sans-serif;
+padding: 0 12px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+/* identical to box height */
+letter-spacing: 1.5px;
+
+
+cursor: pointer;
+
     margin-right: 14px;
     margin-bottom: 14px;
 }
-.tag-button p{
-    margin: 0 12px;
+.tag-button:hover{
+    background-color: #40A385;
 }
+
 .tag-link{
 font-family: 'Mulish', sans-serif;
 font-style: normal;
@@ -160,8 +192,16 @@ text-decoration-line: underline;
 color: #232323;
 
 }
+.icon{
+    width: 20px; 
+    filter: invert(21%) sepia(98%) saturate(22%) hue-rotate(13deg) brightness(102%) contrast(94%);
+}
+.icon:hover{
+        filter: invert(56%) sepia(12%) saturate(1634%) hue-rotate(111deg) brightness(97%) contrast(90%);
+}
+
 .tag-cloud{
-    margin-bottom: 15px;
+    margin-bottom: 9px;
 }
 .tag-cloud-container{
     margin-bottom: 66px;
@@ -193,8 +233,10 @@ color: #232323;
 }
 .page-nav{
     margin: auto;
+    margin-top: 23px ;
     display: flex;
     align-items: center;
+    
 }
 .page-nav a{
 text-decoration: none;
