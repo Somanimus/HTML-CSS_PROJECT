@@ -21,6 +21,13 @@ header{
     font-size: 18px;
     margin-right: 46px;
 }
+.header-card{
+  background-image: url(./media/anons.png);
+  background-position: center;
+  background-size: cover;
+  width: 93%;
+  margin: auto;
+}
 .header-title{
 font-family: 'Josefin Sans', sans-serif;
 color: #232323;
@@ -239,6 +246,7 @@ color: #FFFFFF;
   
     
 }
+
 @media screen and (max-width: 800px) {
      .links-content-box{
     position: absolute;
@@ -277,5 +285,21 @@ color: #FFFFFF;
   } 
   .menu-button-container {
     display: flex;
+    }
+    @media screen and (max-width:390px) {
+    .card-content-box h2{
+      font-size: 20px;
+      width: 80%;
+      margin: auto;
+      text-align: center;
+      position: relative;
+      top: 12%;
+      left: 0;
+
+    }   
+    .card-content-box{
+      width: 100%;
+    }
+    
     }
 }

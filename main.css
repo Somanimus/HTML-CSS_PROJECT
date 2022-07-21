@@ -281,16 +281,15 @@ letter-spacing: 1.5px;
  main{
     flex-direction: column;
  }
- 
  .content-sorter{
     display: flex;
     justify-content: center;
-    align-items: center;
  }
  .content-sorter button{
     margin-left: auto;
     margin-right: auto;
  }
+ 
  
  @media  screen and (max-width: 700px) {
     .content-sorter{
@@ -302,6 +301,22 @@ letter-spacing: 1.5px;
         margin-left: auto;
     }
     
+ @media screen and (max-width: 390px) {
+  .sorter-button{
+    font-size: 14px;
+    margin: 0%;
+  }
+  .page-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .page-nav a{
+   margin: 0; 
+  }
+  
+  
+}   
  }
  .content-section{
     margin: auto;
@@ -310,19 +325,32 @@ letter-spacing: 1.5px;
     align-items: center;
     width: 100%;
  }
+ .content-section-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
 .item-img{
+    margin: auto;
     margin-bottom: 10px;
 } 
  .content-item{
+    display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 0%;
     height: 450px;
     width: 100%;
-    align-items: center;
-    justify-content: center;
  }
+  @media screen and (max-width: 390px) {
+    .content-item{
+        height: 600px;
+    }
+  }
+
  .item-text-box{
-    width: 100%;
+    width: 80%;
     align-items: center;
  }
  .item-headline{
@@ -351,4 +379,14 @@ letter-spacing: 1.5px;
   .item-text{
     width: 50%;
   }  
+}
+@media screen and (min-width: 1000px) and (max-width: 1250px) {
+  .item-img-container{
+    width: 50vw;
+    height: 50vw;
+  }   
+  .content-item{
+    height: 70vw;
+  }
+
 }
