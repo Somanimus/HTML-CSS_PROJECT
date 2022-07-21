@@ -35,8 +35,7 @@ font-weight: 400;
 font-size: 38px;
 line-height: 38px;
 margin-top: 5px;
-margin-left: 31px;
-margin-right: 350px;
+margin-right: 390px;
 letter-spacing: 1.1px;
 text-transform: uppercase;
 }
@@ -65,7 +64,7 @@ text-transform: uppercase;
     top: calc(45% - 365px/2); */
 
 background: rgba(255, 255, 255, 0.75);;
-top: 25%;
+top: calc(25% + 14px);
 }
 .card-content-box h2{
 position: absolute;
