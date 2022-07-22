@@ -201,7 +201,7 @@ letter-spacing: 1.5px;
     justify-content: space-between;
  }
  .form-text-box p{
-    width: 100%;
+    width: 95%;
     margin: auto;
  }
  .subscription-form{
@@ -219,3 +219,12 @@ letter-spacing: 1.5px;
     height: 55px;
  }
 }
+
+ @media screen and (max-width: 390px) {
+    .author-info h3{
+        font-size: 24px;
+    }
+    .form-text-box h3{
+        font-size: 20px;
+    }
+    }

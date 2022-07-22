@@ -35,7 +35,7 @@ font-weight: 400;
 font-size: 38px;
 line-height: 38px;
 margin-top: 5px;
-margin-right: 390px;
+margin-right: 370px;
 letter-spacing: 1.1px;
 text-transform: uppercase;
 }
@@ -184,6 +184,7 @@ color: #FFFFFF;
   padding: 0;
   display: flex;
   flex-direction: row;
+  margin-right: 20px;
 }
 .links-content-box > a {
   margin: 0 1rem;
@@ -302,3 +303,19 @@ color: #FFFFFF;
     
     }
 }
+ @media screen  and (max-width:400px){
+.card-content-box h2{
+  height: fit-content;
+}
+.card-content-box p{
+  height: fit-content;
+  font-size: 17px;
+  line-height: 20px;
+}
+.card-button{
+  width: 50%;
+  left: calc(25%);
+  top: calc(80%);
+}
+    
+ }
